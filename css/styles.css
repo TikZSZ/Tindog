@@ -257,8 +257,10 @@ hr {
     #testimonials .fas{
         display: none;
     }
-    .b2{
-        margin-bottom: 15%;
+    .b1,.b2{
+      margin: 2% 0 10% 0;
+      margin-bottom: 15%;
+      width: 45%;
     }
     .container-fluid {
     padding: 1% 10% 0% 10%;
