@@ -250,6 +250,9 @@ hr {
 
 
 @media (max-width: 990px) {
+    .slide-button1,.slide-button2{
+        display: none;
+    }
     .b1,.b2{
         margin-bottom: 0;
     }
