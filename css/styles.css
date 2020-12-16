@@ -254,7 +254,7 @@ hr {
         font-size: 2rem;
         margin-bottom: 4%;
     }
-    .arrow1,.arrow2{
+    #testimonials .fas{
         display: none;
     }
     .b1,.b2{
