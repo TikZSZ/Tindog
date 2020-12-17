@@ -1,19 +1,58 @@
+body {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* Title-Section */
+
+
 #title {
   position: relative;
   background-color: #fd3e5b;
   color: #fff;
 }
 
+  /* Parent Div */
+
 .container-fluid {
+  text-align: left;
   padding: 1% 10% 0 10%;
 }
-#title hr{
-    margin-bottom: 70%;
-    background-color: transparent;
-    border-top:  dotted white;
-    border-width: 8px;
-    width: 120%;
+
+    /* Brand */
+
+.navbrand {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  padding-left: 0;
 }
+
+    /* Dot-Button */
+
+#title .dot-button {
+  margin-bottom: 70%;
+  background-color: transparent;
+  border-top: dotted white;
+  border-width: 8px;
+  width: 120%;
+}
+      /* Removes shiity edges around button */
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+    /* Alings-button-dropdown */
+
+.align-nav {
+  text-align: right;
+}
+
+    /* Nav-list and hovering property */
+
 .nav-item {
   padding: 0 1rem;
 }
@@ -25,19 +64,12 @@
 .navlink:hover {
   color: #000000;
 }
-.navbrand {
-  color: white;
-  letter-spacing: 2px;
-  font-size: 2rem;
-  padding-left: 0;
-}
+
 .navbrand:hover {
   color: #fff;
 }
 
-.align-nav {
-  text-align: right;
-}
+    /* First Div */
 
 .div1 {
   margin-top: 15%;
@@ -63,6 +95,8 @@
   margin: 3% 3% 3% 0%;
 }
 
+    /* Second Div */
+
 .image1 {
   position: absolute;
   transform: rotate(22deg);
@@ -71,12 +105,19 @@
   margin-left: 8%;
 }
 
+
+/* Features-Section */
+
+
 #features {
   position: relative;
-  text-align: center;
+
   padding: 10% 10%;
   background-color: #fff;
 }
+
+  /* All-Icon-for-Features and their hovering*/
+
 .features-icon {
   font-size: 5rem;
   color: #ef8172;
@@ -85,24 +126,34 @@
 .features-icon:hover {
   color: #fd3e5b;
 }
+
+  /* Small-Heading-Text(h3) and short-para */
+
 #features h3 {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 1.5rem;
   font-weight: 1000;
 }
+
 #features p {
   margin: 0 auto;
   color: #8f8f8f;
   padding: 0 20%;
 }
 
+
+  /* Testimonials-Section */
+
+
 #testimonials {
   position: relative;
   background-color: #ef8172;
   color: #fff;
   padding: 0 10% 2% 10%;
-  text-align: center;
 }
+
+  /* Testimonials-Main-Content and User-Sign (all in side carousel)*/
+
 #testimonials h2 {
   font-family: "Montserrat-Bold";
   font-size: 2rem;
@@ -118,15 +169,9 @@
   margin-top: 2%;
   display: block;
 }
-#press {
-  text-align: center;
-  background-color: #ef8172;
-  padding-bottom: 5%;
-}
-#press img {
-  width: 15%;
-  margin: 3% 2%;
-}
+
+  /* Carousel-Button and hover state */
+
 .slide-button1 {
   position: absolute;
   top: 50%;
@@ -150,8 +195,25 @@
   color: black;
 }
 
+
+/* Press-Section (contains company logo)*/
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+#press img {
+  width: 15%;
+  margin: 3% 2%;
+}
+
+
+/* Pricing-Section */
+
+
 #pricing {
-  text-align: center;
   padding: 10% 10% 8% 10%;
 }
 
@@ -166,19 +228,28 @@
   font-size: 1.3rem;
   color: #8f8f8f;
 }
+
+  /* Row of cards */
 #pricing .row {
   margin-top: 5%;
 }
+
+    /* Giving outer border to cards and defining spacing */
+
 .card {
-  border: solid black 3px;
-  margin: 10px 0;
+border: solid black 3px;
+margin: 10px 0;
 }
+      /* Gives Style to price tags inside card(h2) */
 .card-price {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 1.5rem;
   font-weight: 800;
   line-height: 2;
 }
+
+      /* Inside-card-hr-rule */
+
 hr {
   background-color: transparent;
   width: 30%;
@@ -189,97 +260,92 @@ hr {
 }
 
 
+/* Cta-Section */
 
-#cta{
-    background-color: #fd3e5b;
-    text-align: center;
-    padding: 10% 0%;
-}
-#cta h3{
-    width: 65%;
-    margin: 0 auto 2% auto;
-    font-family: "Montserrat-Black", sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #fff;
-}
-#cta .btn{
-    margin: 0 0.7%;
+
+#cta {
+  background-color: #fd3e5b;
+  padding: 10% 0%;
 }
 
-#footer{
-    padding: 5% 0 1% 0;
-    text-align: center;
+#cta h3 {
+  width: 65%;
+  margin: 0 auto 2% auto;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
 }
-#footer a{
-    color: black;
-    margin: 3% 0.6%;
 
-}
-#footer p{
-    margin: 1.5% auto;
-    color: #8f8f8f;
-}
-.navbar-toggler:focus{
-    box-shadow: none;
-}
-.f-icon{
-    font-size: 2rem;
-}
-.f-icon:hover{
-    color:#fd3e5b
+#cta .btn {
+  margin: 0 0.7%;
 }
 
 
+/* Footer-Section */
 
 
+#footer {
+  padding: 5% 0 1% 0;
+}
+
+  /* Icon-Size */
+
+.f-icon {
+  font-size: 2rem;
+}
+  /* Anchor-Tags-Used-With-icon as btn (normal and hoverd state) */
+
+#footer a {
+  color: black;
+  margin: 3% 0.6%;
+}
+
+.f-icon:hover {
+  color: #fd3e5b;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* For screens smaller than 990px (phones)*/
 
 @media (max-width: 990px) {
-    #cta h3{
-        font-size: 2rem;
-        margin-bottom: 4%;
-    }
-    #testimonials .fas{
-        display: none;
-    }
-    .b1,.b2{
-      margin: 5% 2% 5% 0;
-      margin-bottom: 15%;
-      width: 45%;
-    }
-    .container-fluid {
+/* Reduces font size on cta for better redability */
+  #cta h3 {
+    font-size: 2rem;
+    margin-bottom: 4%;
+  }
+/* Hides slide icons on smaller screens */
+  #testimonials .fas {
+    display: none;
+  }
+/* Adds margin and padding and width to butify button  */
+    .b1,.b2 {
+    margin: 5% 2% 5% 0;
+    margin-bottom: 15%;
+    width: 45%;
+  }
+/* Changes padding of fluid container for better fitting (belongs to title section) */
+  .container-fluid {
     padding: 1% 10% 0% 10%;
     text-align: center;
-    }
-    .image1 {
+  }
+/* Sets parameters for image rotates back to normal sets better width and margin + puts display to static */
+  .image1 {
     position: static;
     transform: rotate(0);
     max-width: 80%;
     margin: 0% auto 5% auto;
-    }
-    #testimonials h2 {
+  }
+/* Sets better size for image and text for smaller screens */
+  #testimonials h2 {
     font-size: 1.2rem;
-    }
-    #testimonials img {
+  }
+  #testimonials img {
     width: 20%;
-    }
+  }
 }
 
+/* For misc view-ports */
 
 @media (max-width: 1200px) and (min-width: 992px) {
   .b1,
@@ -289,10 +355,8 @@ hr {
   }
   .image1 {
     top: 53%;
-
     width: 80%;
   }
-
 }
 
 @media (max-width: 1300px) and (min-width: 1200px) {
@@ -310,7 +374,4 @@ hr {
     top: 52%;
   }
 }
-body {
-  font-family: "Ubuntu", sans-serif;
-  box-sizing: border-box;
-}
+
