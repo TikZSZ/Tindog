@@ -125,6 +125,8 @@ body {
 }
 .features-icon:hover {
   color: #fd3e5b;
+  transform: scale(1.5);
+  padding-bottom: 10%;
 }
 
   /* Small-Heading-Text(h3) and short-para */
@@ -262,7 +264,6 @@ hr {
 
 /* Cta-Section */
 
-
 #cta {
   background-color: #fd3e5b;
   padding: 10% 0%;
@@ -286,25 +287,32 @@ hr {
 
 
 #footer {
+  
   padding: 5% 0 1% 0;
+  
 }
-
+  
   /* Icon-Size */
 
 .f-icon {
   font-size: 2rem;
+  margin: 0 0.5%;
 }
   /* Anchor-Tags-Used-With-icon as btn (normal and hoverd state) */
 
 #footer a {
   color: black;
-  margin: 3% 0.6%;
 }
 
 .f-icon:hover {
   color: #fd3e5b;
-}
+  transform: scale(1.5);
 
+}
+#footer p{
+  display: block;
+  margin-top: 3%;
+}
 
 /* For screens smaller than 990px (phones)*/
 
